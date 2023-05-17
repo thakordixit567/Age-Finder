@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #4a171e;
+  }
+  
+  .age-calculator {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    background-color: #e2b144;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .controls input {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+  }
+  
+  .controls button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #4a171e;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-left: 5px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .birthdate {
+    font-size: 22px;
+  }
+  
+  .age {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .wishing {
+    font-size: 40px;
+    color: #4a171e;
+    font-weight: bold;
+    margin-top: 40px;
+  }
