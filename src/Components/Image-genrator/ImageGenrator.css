@@ -1,0 +1,68 @@
+.ai-image-genrator {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.header span {
+    color: #de1bb9;
+    font-weight: 600;
+}
+
+.img-loading{
+    display: flex;
+    flex-direction: column;
+}
+.img-loading image {
+    width: 512px;
+   
+}
+
+.serch-box {
+    display: flex;
+    width: 1000px;
+    height: 95px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: #1f3540;
+}
+
+.serch-input {
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: white;
+    padding-left: 35px;
+    margin-left: 35px;
+}
+
+.serch-input::placeholder {
+    color: #999;
+}
+
+.genrate-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: #de1bb9;
+    cursor: pointer;
+    font-size: 25px;
+}
